@@ -4,55 +4,10 @@
     <option name="compassSupportEnabled" value="true" />
   </component>
   <component name="ModuleRunConfigurationManager">
-    <configuration default="false" name="IRB console: crawler" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="crawler" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/.rbenv/versions/2.1.4/bin/irb" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="scraping" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="nokogiri-title" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="crawler" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chap_2_5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chap_2_5/scraping.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="rss10" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="crawler" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chp_3_4" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chap_3_5" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -65,16 +20,16 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chp_3_4/rss10.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chap_3_5/nokogiri-title.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="rss20" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="nokogiri-atag" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="crawler" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chp_3_4" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chap_3_5" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -87,16 +42,16 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chp_3_4/rss20.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chap_3_5/nokogiri-atag.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="atom10" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="nokogiri-document" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="crawler" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chp_3_4" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chap_3_5" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -109,7 +64,51 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chp_3_4/atom10.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chap_3_5/nokogiri-document.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nokogiri-titles" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="crawler" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chap_3_5" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chap_3_5/nokogiri-titles.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bound-csv" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="crawler" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/chap_5_14" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chap_5_14/bound-csv.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
