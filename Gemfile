@@ -8,3 +8,8 @@ gem 'anemone'
 
 # ステートフルなページを対象とするクローラー
 gem 'mechanize'
+
+# 並列処理の実施
+gem 'parallel'
+
+gem 'zipruby'
